@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vaishnav</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body class="body">
+
+<div>
+         
+          <div class="nav-bar" >
+            <div class="logo">
+              <img src="#" alt="logo" >
+           
+
+            </div>
+           <div class="menu">
+             <ul>
+                <li>Contact</li>
+                <li>Experience</li>
+                <li>About</li>
+             </ul>
+
+            </div>
+        
+        </div>
+         
+          <div class="my-image">
+            <img class="img" src="images/my_img.jpg" >
+               <div class="text-over-img">I am Vaishnav CV</div>
+                 <div class="img-para">I am an Engineer graduate in the stream of Instrumentation & Control Engineering from NSS COLLEGE OF ENGINEERING PALAKKAD.<br/>
+                    I also complted my diploma in Instrumentation & Technology from GPTC Mattannur.<br/>
+                    I also have good knowledge in Python programming language and responsive static web desigining using html+bootstap.</div>
+               
+
+           </div>
+
+           <div class="about">
+               <div class="about-head">About</div>
+               </div>
+
+             
+
+
+
+
+           </div>
+           
+    </div>
+  
+
+<script>
+
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".nav-bar");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+    });
+
+</script>
+
+
+
+
+
+</body>
+</html>
